@@ -35,13 +35,13 @@ $result=mysqli_query($conn,$sql);
             <td><?php echo $row['comment']; ?></td>
             <td><img src="<?php echo $row['picture']; ?>" height="30" /></td>
             <td>
-               <a href="delete.php?id=<?php echo $row['user_id']; ?>">
-                   <img src="delete.png" width="20" />
+               <a href="../chapter_24/delete.php?id=<?php echo $row['user_id']; ?>">
+                   <img src="../chapter_24/delete.png" width="20" />
                </a>
             </td>
             <td>
-                <a href="edit.php?id=<?php echo $row['user_id']; ?>">
-                    <img src="edit.png" width="20" />
+                <a href="../chapter_24/edit.php?id=<?php echo $row['user_id']; ?>">
+                    <img src="../chapter_24/edit.png" width="20" />
                 </a>
             </td>
         </tr>
